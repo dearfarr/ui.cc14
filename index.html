@@ -9,11 +9,15 @@
 <body>
     <div class="container">
         <h1 id="title">Выберите язык</h1>
-        <select id="languageSelect">
-            <option value="ru">Русский</option>
-            <option value="en">English</option>
-        </select>
+        <div class="language-selection">
+            <label for="languageSelect">Выберите язык:</label>
+            <select id="languageSelect">
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+            </select>
+        </div>
         <button id="applyButton">Применить</button>
+        <p id="feedback"></p>
     </div>
     <script src="script.js"></script>
 </body>
